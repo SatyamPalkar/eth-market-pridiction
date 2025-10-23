@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-prediction-experiments"
+version = "0.1.0"
+description = "Ethereum price prediction experiments for AT3"
+readme = "README.md"
+requires-python = ">=3.11.4"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@student.uts.edu.au"}
+]
+dependencies = [
+    "scikit-learn==1.5.1",
+    "pandas==2.2.2",
+    "numpy>=1.26.4",
+    "jupyterlab==4.2.3",
+    "xgboost==2.1.0",
+    "lightgbm==4.4.0",
+    "hyperopt==0.2.7",
+    "joblib==1.4.2",
+    "matplotlib>=3.9.1",
+    "seaborn>=0.13.2",
+    "plotly>=5.22.0",
+    "lime==0.2.0.1",
+    "wandb==0.17.4",
+    "fastapi==0.111.0",
+    "uvicorn==0.30.1",
+    "streamlit==1.36.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.7.0",
+    "flake8>=6.1.0",
+    "isort>=5.12.0"
+]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+

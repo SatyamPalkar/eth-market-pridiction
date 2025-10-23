@@ -1,0 +1,13 @@
+https://github.com/<your_username>/36120-AT3-experiments
+
+# Instructions:
+# Replace <your_username> with your actual GitHub username
+# This file should contain the link to your PRIVATE GitHub repository for experiments
+# Make sure to provide admin access to the following users:
+# - anthony.so@uts.edu.au
+# - reasmey.tith@uts.edu.au
+# - Natalia.Tkachenko@uts.edu.au
+# - Huy.Nguyen-1@uts.edu.au
+# - savinay.singh@uts.edu.au
+# - TheHai.Bui@uts.edu.au
+
